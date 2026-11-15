@@ -1,0 +1,12 @@
+{
+  "name": "sharbel-realtime",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Authoritative realtime rooms for sharbel game",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node --test test/*.test.cjs"
+  },
+  "dependencies": { "ws": "8.22.1" }
+}
